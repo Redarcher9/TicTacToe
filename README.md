@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Description
 
 This is a simple TicTacToe webpage built using ReactJS, HTML and CSS.
 
