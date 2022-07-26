@@ -1,6 +1,6 @@
 # Description
 
-This is a simple TicTacToe webpage built using ReactJS, HTML and CSS.
+This is a simple TicTacToe webpage built using ReactJS,HTML and CSS.
 
 
 ## Link
