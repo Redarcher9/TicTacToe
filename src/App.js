@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="App">
       <p className="App-title">
-        TicTacToe
+        TictacToe
       </p>
       <div className="row jc-center">
         <SquareComponent className='b-bottom-right' state={gameState[0]} onClick={()=>onSquareClicked(0)}/>
