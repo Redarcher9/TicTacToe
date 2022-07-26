@@ -78,7 +78,7 @@ function App() {
         <SquareComponent className='b-right' state={gameState[7]} onClick={()=>onSquareClicked(7)}/>
         <SquareComponent state={gameState[8]} onClick={()=>onSquareClicked(8)}/>
       </div>
-      <button className="reset-button" onClick={()=> clearGame()}>Reset Game</button>
+      <button className="reset-button" onClick={()=> clearGame()}>RESET GAME!</button>
     </div>
   );
 }
