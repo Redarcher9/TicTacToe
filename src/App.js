@@ -41,7 +41,7 @@ function App() {
         return "DRAW"
     return null;
   }
-
+/*eslint-disable */
   useEffect(()=>{
     let winner = checkWinner();
     if(winner){
@@ -57,6 +57,7 @@ function App() {
       }
     }
   },[gameState])
+  /* eslint-enable */
 
   return (
     <div className="App">
