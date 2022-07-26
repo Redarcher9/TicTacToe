@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
       <p className="App-title">
-        TictacToe
+        TicTacToe
       </p>
       <div className="row jc-center">
         <SquareComponent className='b-bottom-right' state={gameState[0]} onClick={()=>onSquareClicked(0)}/>
@@ -79,7 +79,7 @@ function App() {
         <SquareComponent className='b-right' state={gameState[7]} onClick={()=>onSquareClicked(7)}/>
         <SquareComponent state={gameState[8]} onClick={()=>onSquareClicked(8)}/>
       </div>
-      <button className="reset-button" onClick={()=> clearGame()}>RESET GAME!</button>
+      <button className="reset-button" onClick={()=> clearGame()}>Reset Game!</button>
     </div>
   );
 }
